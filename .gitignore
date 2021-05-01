@@ -1,0 +1,5 @@
+renderer/config.py
+renderer/config.json
+.vscode/
+*.pyc
+*/__pycache__/
