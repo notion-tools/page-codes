@@ -1,0 +1,23 @@
+<!-- Notion Tools 왼쪽 목차 -->
+<style>
+    @media ( min-width: 1200px ) {
+        .notion-table_of_contents-block {
+            position: fixed;
+            left: 30px;
+            top: 50px;
+            height: calc(100vh - 50px);
+            max-width: 300px !important;
+            overflow-y: auto;
+            padding-bottom: 20px;
+            transition: 0.5s;
+        }
+        
+        .notion-table_of_contents-block::-webkit-scrollbar{
+            display: none;
+        }
+        
+        .notion-frame>div[class="notion-scroller vertical horizontal"] {
+            margin-left: 150px;
+        }
+      }
+    </style>
